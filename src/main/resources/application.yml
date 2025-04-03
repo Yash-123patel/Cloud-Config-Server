@@ -15,6 +15,6 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: https://microservice-service-registry.onrender.com
+      defaultZone: https://microservice-service-registry.onrender.com/eureka/
     register-with-eureka: true
     fetch-registry: true
